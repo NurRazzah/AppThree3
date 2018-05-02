@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guest Name List"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="46sp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/inputGuest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="38dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/addGuest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inputGuest"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="107dp"
+        android:text="Add Guest" />
+
+    <Button
+        android:id="@+id/viewGuest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:text="View Guest Lists"
+        android:layout_below="@+id/addGuest"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
